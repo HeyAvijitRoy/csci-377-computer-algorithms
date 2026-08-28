@@ -1,0 +1,75 @@
+# C/C++ compiler output
+*.o
+*.obj
+*.lo
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.d
+a.out
+a.exe
+
+# Build directories and generated build-system files
+/build/
+/build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+build.ninja
+.ninja_deps
+.ninja_log
+Testing/
+_deps/
+
+# Test and coverage artifacts
+*.gcda
+*.gcno
+*.gcov
+coverage/
+htmlcov/
+callgrind.out.*
+
+# Visual Studio and other IDE metadata
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+ipch/
+.vscode/
+.idea/
+*.code-workspace
+
+# Local environment and secret files
+.env
+.env.*
+!.env.example
+
+# Logs, temporary files, and editor backups
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.cache/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
