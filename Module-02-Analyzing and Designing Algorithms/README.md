@@ -36,8 +36,9 @@ This module includes:
 
 A note on scope: this module uses `Θ` informally, as shorthand for "grows
 like." The **formal** definitions of `O`, `Ω`, and `Θ` — upper bound, lower
-bound, tight bound — are introduced in Module 3. If you're looking for those
-precise definitions, that's where they'll show up.
+bound, tight bound — are introduced in Module 3. If you want to get ahead of
+that (or the class is on break before Module 3 starts), see
+[asymptotic-notation-primer.md](asymptotic-notation-primer.md) below.
 
 ---
 
@@ -48,6 +49,7 @@ precise definitions, that's where they'll show up.
 * [sort_benchmark.cpp](sort_benchmark.cpp) — timing comparison across sizes and input shapes
 * [m2-tracing-worksheet.md](m2-tracing-worksheet.md) — in-class hand-tracing worksheet
 * [m2-tracing-worksheet-solutions.md](m2-tracing-worksheet-solutions.md) — worked solutions guide
+* [asymptotic-notation-primer.md](asymptotic-notation-primer.md) — self-study bridge into Module 3's formal O/Ω/Θ
 
 ---
 
@@ -327,6 +329,20 @@ Students should be able to explain:
 
 ---
 
+## [asymptotic-notation-primer.md](asymptotic-notation-primer.md)
+
+Throughout this module, `Θ` was used informally — as shorthand for "grows
+like." This file makes `O`, `Ω`, and `Θ` precise: their formal definitions,
+what each one actually claims (upper bound, lower bound, tight bound), a
+worked explanation of why best-case/worst-case and O/Ω/Θ are two *separate*
+questions that get conflated constantly, and practice prompts to try before
+Module 3.
+
+If there's a gap of a class or two before Module 3 starts, this is the
+independent-study reading to work through in the meantime.
+
+---
+
 ## [m2-tracing-worksheet.md](m2-tracing-worksheet.md)
 
 An in-class, closed-laptop worksheet: trace insertion sort by hand on a
@@ -370,6 +386,8 @@ After working through this module, students should be able to:
    ~2x) to the corresponding Θ bound.
 10. Explain why an algorithm with a better asymptotic bound can still lose on
     a specific input, and give the sorted-input example as evidence.
+11. State the formal definitions of `O`, `Ω`, and `Θ`, and explain why
+    best-case/worst-case and O/Ω/Θ are answering two different questions.
 
 ---
 
